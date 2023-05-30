@@ -735,6 +735,13 @@ a#logo {
     justify-content: center;
     align-items: center;
 } */
+.clients-row .item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 .portfolio-item img:hover{
   opacity: 1;
   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
