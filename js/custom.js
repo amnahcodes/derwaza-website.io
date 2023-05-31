@@ -170,24 +170,28 @@
                      }));
                     //  console.log(origin);
                     if (destination.index == 2 || destination.index == 4) {
-                        $('.navbar-nav li a').css("color","#6B02FF");
-                        $('.navbar-nav li a:after').css("background","#6B02FF");
+                        $('.navbar-nav li a').css({'color':'#6B02FF',"-webkit-transition": "all 0.4s ease",
+                        'transition': 'all 0.4s ease'});
+                        $('.navbar-nav li a').addClass('change-color');
                         $('.social-icons li a').css("color","#6B02FF");
                         $('.social-icons li a').css("background","#985bef5e");
                         $('.logo-image').attr("src","images/derwaza-logo-min.svg");
                         $('.hamburger .line').css("background-color","#6B02FF");
                     }
                     else if (destination.index ==6) {
-                        $('.navbar-nav li a').css("color","#6B02FF");
-                        $('.navbar-nav li a:after').css("background","#6B02FF");
+                        $('.navbar-nav li a').css({'color':'#6B02FF',"-webkit-transition": "all 0.4s ease",
+                        'transition': 'all 0.4s ease'});
+                        $('.navbar-nav li a').addClass('change-color');
                         $('.social-icons li a').css("color","#6B02FF");
                         $('.social-icons li a').css("background","#985bef5e");
                         $('.logo-image').attr("src","images/derwaza-logo-min.svg");
                         $('.hamburger .line').css("background-color","#6B02FF");
                     }
                     else{
-                        $('.navbar-nav li a').css("color","#fff");
-                        $('.navbar-nav li a:after').css("background","rgba(255, 255, 255, 0.1)");
+                        // $('.navbar-nav li a').css("color","#fff");
+                        $('.navbar-nav li a').css({'color':'#fff',"-webkit-transition": "all 0.4s ease",
+                        'transition': 'all 0.4s ease'});
+                        $('.navbar-nav li a').removeClass('change-color');
                         $('.social-icons li a').css("color","rgba(255,255,255,1)");
                         $('.navbar-nav li.active a:after').css("background","#fff");
                         $('.logo-image').attr("src","images/white_derwaza_logo.svg");

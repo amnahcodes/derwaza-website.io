@@ -408,6 +408,9 @@ a#logo {
   transform:scale(0);
   margin-top: 4px;
 }
+.navbar-nav li a.change-color:after{
+  background: #6B02FF;
+}
 .navbar-nav li a:hover:after, .navbar-nav li.active a:after{
   -webkit-transform:scale(1);
   transform:scale(1);
@@ -515,6 +518,11 @@ a#logo {
 .next-section i:hover {
   opacity: 1;
 }
+.derwaza-font{
+  font-family: 'Cairo', sans-serif;
+  font-weight: 400; 
+}
+
 
 /*==============================================
 05. ABOUT ME
@@ -543,10 +551,10 @@ a#logo {
   font-weight: 300;
 }
 .about-contentbox h2 {
-  font-size: 32px;
   text-transform: uppercase;
-  font-weight: 700;
+  font-size: 60px !important;
 }
+
 .facts-list {
   margin-top: 30px;
 }
