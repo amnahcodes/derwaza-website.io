@@ -155,7 +155,7 @@
         if ($('.fullpage-default').length) {
             var myFullpage = new fullpage('.fullpage-default', {
                 licenseKey: ' C7F41B00-5E824594-9A5EFB99-B556A3D5',
-                anchors: ['slide01', 'slide02', 'slide03', 'slide04', 'slide05', 'slide06', 'slide07'],
+                anchors: ['slide01', 'slide02', 'slide03', 'slide04', 'slide05', 'slide06'],
                 menu: '#nav',
                 lazyLoad: true,
                 navigation: true,
@@ -178,15 +178,15 @@
                         $('.logo-image').attr("src","images/derwaza-logo-min.svg");
                         $('.hamburger .line').css("background-color","#6B02FF");
                     }
-                    else if (destination.index ==6) {
-                        $('.navbar-nav li a').css({'color':'#6B02FF',"-webkit-transition": "all 0.4s ease",
-                        'transition': 'all 0.4s ease'});
-                        $('.navbar-nav li a').addClass('change-color');
-                        $('.social-icons li a').css("color","#6B02FF");
-                        $('.social-icons li a').css("background","#985bef5e");
-                        $('.logo-image').attr("src","images/derwaza-logo-min.svg");
-                        $('.hamburger .line').css("background-color","#6B02FF");
-                    }
+                    // else if (destination.index ==6) {
+                    //     $('.navbar-nav li a').css({'color':'#6B02FF',"-webkit-transition": "all 0.4s ease",
+                    //     'transition': 'all 0.4s ease'});
+                    //     $('.navbar-nav li a').addClass('change-color');
+                    //     $('.social-icons li a').css("color","#6B02FF");
+                    //     $('.social-icons li a').css("background","#985bef5e");
+                    //     $('.logo-image').attr("src","images/derwaza-logo-min.svg");
+                    //     $('.hamburger .line').css("background-color","#6B02FF");
+                    // }
                     else{
                         // $('.navbar-nav li a').css("color","#fff");
                         $('.navbar-nav li a').css({'color':'#fff',"-webkit-transition": "all 0.4s ease",
@@ -207,14 +207,14 @@
                             $('.logo-image').attr("src","images/derwaza-logo-min.svg");
                             $('.hamburger .line').css("background-color","#6B02FF");
                         }
-                        else if (destination.index ==6) {
-                            $('.navbar-nav li a').css("color","#fff");
-                            $('.navbar-nav li a:after').css("background","#fff");
-                            $('.social-icons li a').css("color","#6B02FF");
-                            $('.social-icons li a').css("background","#985bef5e");
-                            $('.logo-image').attr("src","images/derwaza-logo-min.svg");
-                            $('.hamburger .line').css("background-color","#6B02FF");
-                        }
+                        // else if (destination.index ==6) {
+                        //     $('.navbar-nav li a').css("color","#fff");
+                        //     $('.navbar-nav li a:after').css("background","#fff");
+                        //     $('.social-icons li a').css("color","#6B02FF");
+                        //     $('.social-icons li a').css("background","#985bef5e");
+                        //     $('.logo-image').attr("src","images/derwaza-logo-min.svg");
+                        //     $('.hamburger .line').css("background-color","#6B02FF");
+                        // }
                         else{
                             $('.navbar-nav li a').css("color","#fff");
                             $('.navbar-nav li a:after').css("background","rgba(255, 255, 255, 0.1)");
@@ -234,14 +234,14 @@
                             $('.logo-image').attr("src","images/derwaza-logo-min.svg");
                             $('.hamburger .line').css("background-color","#6B02FF");
                         }
-                        else if (destination.index ==6) {
-                            $('.navbar-nav li a').css("color","#fff");
-                            $('.navbar-nav li a:after').css("background","#fff");
-                            $('.social-icons li a').css("color","#6B02FF");
-                            $('.social-icons li a').css("background","#985bef5e");
-                            $('.logo-image').attr("src","images/derwaza-logo-min.svg");
-                            $('.hamburger .line').css("background-color","#6B02FF");
-                        }
+                        // else if (destination.index ==6) {
+                        //     $('.navbar-nav li a').css("color","#fff");
+                        //     $('.navbar-nav li a:after').css("background","#fff");
+                        //     $('.social-icons li a').css("color","#6B02FF");
+                        //     $('.social-icons li a').css("background","#985bef5e");
+                        //     $('.logo-image').attr("src","images/derwaza-logo-min.svg");
+                        //     $('.hamburger .line').css("background-color","#6B02FF");
+                        // }
                         else{
                             $('.navbar-nav li a').css("color","#fff");
                             $('.navbar-nav li a:after').css("background","rgba(255, 255, 255, 0.1)");
@@ -261,14 +261,14 @@
                             $('.logo-image').attr("src","images/derwaza-logo-min.svg");
                             $('.hamburger .line').css("background-color","#6B02FF");
                         }
-                        else if (destination.index ==6) {
-                            $('.navbar-nav li a').css("color","#fff");
-                            $('.navbar-nav li a:after').css("background","#fff");
-                            $('.social-icons li a').css("color","#6B02FF");
-                            $('.social-icons li a').css("background","#985bef5e");
-                            $('.logo-image').attr("src","images/derwaza-logo-min.svg");
-                            $('.hamburger .line').css("background-color","#6B02FF");
-                        }
+                        // else if (destination.index ==6) {
+                        //     $('.navbar-nav li a').css("color","#fff");
+                        //     $('.navbar-nav li a:after').css("background","#fff");
+                        //     $('.social-icons li a').css("color","#6B02FF");
+                        //     $('.social-icons li a').css("background","#985bef5e");
+                        //     $('.logo-image').attr("src","images/derwaza-logo-min.svg");
+                        //     $('.hamburger .line').css("background-color","#6B02FF");
+                        // }
                         else{
                             $('.navbar-nav li a').css("color","#fff");
                             $('.navbar-nav li a:after').css("background","rgba(255, 255, 255, 0.1)");
