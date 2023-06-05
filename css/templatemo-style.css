@@ -596,6 +596,11 @@ a#logo {
   line-height:1;
   margin-bottom:10px;
 }
+.careers-img{
+    border-radius: 10px;
+  -webkit-box-shadow: 0 0 40px rgba(0,0,0,.3);
+  box-shadow: 0 0 40px rgba(0,0,0,.3);
+}
 .careers-a{
   font-size: 19px;
   font-weight: 500;
