@@ -455,10 +455,6 @@ a#logo {
   color: rgba(255,255,255,1);
   font-size:18px;
 }
-.social-icons li a:hover {
-  color:#1e1e1e;
-  background-color: #fff;
-}
 /*==============================================
 04. WELCOME BLOCK CSS
 ================================================*/
@@ -475,7 +471,7 @@ a#logo {
   letter-spacing: 0.02em;
 }
 .welcome-box p {
-  max-width: 720px;
+  max-width: 620px;
   width:100%;
   margin:0 auto 30px;
   color: #fff;
@@ -498,8 +494,11 @@ a#logo {
 .next-section {
   display: inline-block;
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 100px;
   bottom: 30px;
   cursor: pointer;
   -webkit-transition: all 0.5s ease;
@@ -1052,4 +1051,35 @@ width:100%;
   background: #8a3bf9;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
+}
+.owl-nav span{
+  font-size: 35px;
+  font-weight: bold;
+}
+.owl-prev {
+  width: 20px;
+  height: 100px;
+  position: absolute;
+  top: 40%;
+  margin-left: -20px;
+  display: block !important;
+}
+
+.owl-next {
+  width: 20px;
+  height: 100px;
+  position: absolute;
+  top: 40%;
+  right: -25px;
+  display: block !important;
+}
+.owl-prev i, .owl-next i {transform : scale(1,6); color: #ccc;}
+.owl-prev:focus{
+  outline: none;
+}
+.owl-next:focus{
+  outline: none;
+}
+.first-service{
+  margin-left: auto;
 }
