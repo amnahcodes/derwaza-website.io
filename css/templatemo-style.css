@@ -550,7 +550,15 @@ a#logo {
   text-transform: uppercase;
   font-size: 60px !important;
 }
-
+.careers-col{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+.careers-col .about-contentbox{
+  margin-top: 0;
+}
 .facts-list {
   margin-top: 30px;
 }
@@ -588,7 +596,22 @@ a#logo {
   line-height:1;
   margin-bottom:10px;
 }
-
+.careers-a{
+  font-size: 19px;
+  font-weight: 500;
+}
+.careers-a i{
+  margin-right: 5px;
+}
+.careers-a p{
+  line-height: normal;
+}
+.careers-a:hover{
+  text-decoration: none;
+  color: purple;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
 /*==============================================
 06. SERVICES BLOCK CSS
 ================================================*/
