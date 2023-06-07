@@ -608,9 +608,9 @@ a#logo {
 }
 .careers-a:hover{
   text-decoration: none;
-  color: purple;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  color: #c8a1ff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 .careers-img{
   border-radius: 10px;

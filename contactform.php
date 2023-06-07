@@ -15,9 +15,9 @@ $mailer = new Swift_Mailer($transport);
 // Create a message
 $message = (new Swift_Message('New Contact Message from:  '.$_POST['name']))
   ->setFrom(['website@derwaza.tech'])
-  ->setTo(['amnah@derwaza.tech'])
+  ->setTo(['sultan@derwaza.tech'])
   ->setBody('<h1>Here is the message itself work yay!</h1>')
-  ->addCc('theoneamnah@gmail.com')
+  ->addCc('luqman@derwaza.tech')
   ->addPart('<table>
   <thead>
       <tr>
