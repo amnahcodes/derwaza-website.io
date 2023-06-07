@@ -612,6 +612,11 @@ a#logo {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
+.careers-img{
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 40px rgba(0,0,0,.6);
+  box-shadow: 0 0 40px rgba(0,0,0,.6);
+}
 /*==============================================
 06. SERVICES BLOCK CSS
 ================================================*/
